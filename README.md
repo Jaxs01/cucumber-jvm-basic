@@ -18,14 +18,16 @@ Pre requisites;
 4.	GIT (https://git-scm.com/download/win)
 
 Once you install the above add the following two plugins to Idea IDE (File>Settings>Plugins>InstallJetBrainPlugins>...)
-1.	Cucumber for java
-2.	Gherkin
+ 1.Cucumber for java
+ 2.Gherkin
 
-•	Clone the project using the following @ the project folder $ git clone https://goonawardanan@bitbucket.org/Assurity/cucumber-jvm-basic.git $ cd cucumber-jvm-basic
-•	To run the tests from command line : 
-•	$ mvn clean test -Dtest=RunSampleFeature
-•	You can import the project into Idea as a maven project; File > Open > Select the pom.xml
-•	You can find the sample feature file at <project folder>\src\test\resources\nz\co\assurity\test
-•	Right click on a scenario and select "Run scenario" to execute the scenario.
-•	You can find the reports at <project folder>\target\cucumber-html-report\
+* Clone the project using the following @ the project folder 
+$ git clone https://goonawardanan@bitbucket.org/Assurity/cucumber-jvm-basic.git 
+$ cd cucumber-jvm-basic
+* To run the tests from command line : 
+$ mvn clean test -Dtest=RunSampleFeature
+* You can import the project into Idea as a maven project; File > Open > Select the pom.xml
+* You can find the sample feature file at <project folder>\src\test\resources\nz\co\assurity\test
+* Right click on a scenario and select "Run scenario" to execute the scenario.
+* You can find the reports at <project folder>\target\cucumber-html-report\
 
