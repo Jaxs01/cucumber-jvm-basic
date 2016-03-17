@@ -11,10 +11,8 @@ import java.util.ArrayList;
 
 /**
  * This holds file operation utilities.
- *
  * @author: Assurity
- * Date: 2/17/16
- * Time: 3:46 PM
+
  * To change this template use File | Settings | Editor |File and code Templates.
  */
 public class FileUtility {

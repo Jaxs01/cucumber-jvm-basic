@@ -1,6 +1,5 @@
 package nz.co.assurity.test;
 
-import cucumber.api.PendingException;
 import cucumber.api.java.After;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
@@ -13,10 +12,7 @@ import org.junit.Assert;
 
 /**
  * This is a <Description>.
- *
  * @author: Assurity
- * Date: 1/17/16
- * Time: 8:02 PM
  * To change this template use File | Settings | Editor |File and code Templates.
  */
 public class TeaStepDef {
@@ -82,13 +78,13 @@ public class TeaStepDef {
     public void i_should_successfully_navigate_to_Menu_page() throws Throwable {
 
         Assert.assertEquals("Menu", tcp.getDriver().getTitle());
-     }
+    }
 
     @After
     public void closeBrowser() {
-        if (hp.getDriver() != null && hp != null) {
+        if (hp != null || hp.getDriver() != null) {
             hp.getDriver().close();
-            hp.getDriver().quit();
+           // hp.getDriver().quit();
         }
     }
 

@@ -8,10 +8,8 @@ import org.openqa.selenium.support.PageFactory;
 
 /**
  * This is a <Description>.
- *
  * @author: Assurity
- * Date: 1/17/16
- * Time: 6:29 PM
+
  * To change this template use File | Settings | Editor |File and code Templates.
  */
 public class TeaCategoriesPage extends HomePage {

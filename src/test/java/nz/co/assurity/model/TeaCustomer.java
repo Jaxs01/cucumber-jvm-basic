@@ -4,8 +4,6 @@ package nz.co.assurity.model;
  * This is a <Description>.
  *
  * @author: Assurity
- * Date: 1/17/16
- * Time: 7:25 PM
  * To change this template use File | Settings | Editor |File and code Templates.
  */
 public class TeaCustomer {

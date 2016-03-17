@@ -3,6 +3,8 @@ Feature: Purchase Tea
   As a Customer I need to purchase different tea types.
 #  UseCase 2
 #  UseCase 3
+  #These scenarios are not good example scenarios but used just to demonstrate the framework.
+  #Please also note that as we move forward with adding more scenarios the initial ones getting redundant.
 
   Background:
     Given Precondition one
