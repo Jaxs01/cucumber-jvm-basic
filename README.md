@@ -3,10 +3,11 @@ Introduction
 This is a model project that can be used to start off using Cucumber JVM / Selenium.
 
 There are four layers that is being demonstrated here 
-1. Page object layer. [POM] 
-2. Actions and utility layer 
-3. Step definitions layer or the business process layer 
-4. Feature layer.
+1.	Page object layer. [POM]
+2.	Actions and utility layer 
+3.	Step definitions layer or the business process layer 
+4.	Feature layer.
+
 *Remark: The site used in for demonstration and the scenarios are not good example representation of the best way of writing business scenarios but used just for the demonstration purposes. The scenarios should be written in high level business terms.  
 
 
@@ -18,8 +19,8 @@ Pre requisites;
 4.	GIT (https://git-scm.com/download/win)
 
 Once you install the above add the following two plugins to Idea IDE (File>Settings>Plugins>InstallJetBrainPlugins>...)
- 1.Cucumber for java
- 2.Gherkin
+1.	Cucumber for java
+2.	Gherkin
 
 * Clone the project using the following @ the project folder 
 $ git clone https://goonawardanan@bitbucket.org/Assurity/cucumber-jvm-basic.git 
